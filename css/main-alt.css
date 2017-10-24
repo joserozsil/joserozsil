@@ -297,7 +297,7 @@ p:last-child {
 	}
 	/* browser frame look */
 	.media-box:after {
-		content: 'Â·Â·Â·'; font-weight: 700; color: #e5e5e5; position: absolute; line-height: 1; top: -8px; left: 12px; font-size: 44px;
+		content: '···'; font-weight: 700; color: #e5e5e5; position: absolute; line-height: 1; top: -8px; left: 12px; font-size: 44px;
 		}
 	.media-box img {
 		display: block; width: 100%;
