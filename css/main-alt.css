@@ -712,6 +712,7 @@ p:last-child {
     overflow: hidden;
     border-radius: 8px 8px 0 0;
     box-shadow: 0 0 28px rgba(30, 30, 30, .2);
+    max-height: 250px;
 }
 
 
