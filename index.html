@@ -1,75 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Resumen José Rodríguez" />
+    <meta name="keywords" content="HTML,CSS,JavaScript,Angular,React,Vue" />
+    <meta name="author" content="José Rodríguez" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="description" content="José Rodríguez about me" />
-    <meta name="author" content="Pixelwars">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <title>José Rodríguez - Frontend Developer</title>
+    <title>José Rodríguez - Desarrollador de Software</title>
 
     <!-- FONTS -->
-    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fonts/hk-grotesk/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fonts/fontello/css/fontello.css"
+    />
 
     <!-- STYLES -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- CONTENT-WRAP -->
     <div id="index" class="content-wrap">
+      <!-- CONTENT -->
+      <div class="content">
+        <!-- PROFILE IMAGE -->
+        <img
+          class="profile-image rounded"
+          src="images/profile.jpg"
+          alt="profile image of José Rodríguez"
+        />
 
-        <!-- CONTENT -->
-        <div class="content">
+        <!-- TITLE -->
+        <h1>
+          Hola, Soy José
+          <br />Desarrollador de Software <br />en Venezuela.
+        </h1>
+        <!-- TITLE -->
 
-            <!-- PROFILE IMAGE -->
-            <img class="profile-image rounded" src="images/profile.jpg" alt="profile image of José Rodríguez" />
+        <!-- DESCRIPTION -->
+        <p>
+          Construir cosas simples y hermosas es lo que más disfruto de mi
+          trabajo. También estoy interesado en la elaboración de grandes
+          productos y la exploración de nuevos mundos.
+        </p>
 
-            <!-- TITLE -->
-            <h1>
-                Hola, Soy José
-                <br>desarrollador Frontend
-                <br>en Venezuela.
-            </h1>
-            <!-- TITLE -->
-
-            <!-- DESCRIPTION -->
-            <p>Construir cosas simples y hermosas es lo que más disfruto de mi trabajo. También estoy interesado en la elaboración de grandes productos y la exploración de nuevos mundos.</p>
-            
-            <p>Para colaboración o preguntas; <br>
-                <a class="link-2" href="mailto:jseanvzla@gmail.com">jseanvzla@gmail.com</a></p>
-            <!-- <p>
+        <p>
+          Para colaboración o preguntas; <br />
+          <a class="link-2" href="mailto:jskcod4@gmail.com">
+            jskcod4@gmail.com
+          </a>
+        </p>
+        <!-- <p>
                 <a class="button small" href="portafolio.html">Ver Portafolio</a>
                 <a @click="downloadCv()" class="button small" href="/files/jose-rodriguez.pdf" download="jose-rodriguez.pdf">Descargar Curriculum</a>
             </p> -->
-            <p>
-                <a target="_blank" class="social-link twitter" href="https://twitter.com/joserozsil"></a>
-                <a target="_blank" class="social-link github" href="https://github.com/joserozsil"></a>
-            </p>
+        <p>
+          <a
+            target="_blank"
+            class="social-link twitter"
+            href="https://twitter.com/jskcod4"
+          >
+          </a>
+          <a
+            target="_blank"
+            class="social-link github"
+            href="https://github.com/jskcod4"
+          ></a>
+        </p>
 
-            <!-- DESCRIPTION -->
-
-        </div>
-        <!-- CONTENT -->
-
+        <!-- DESCRIPTION -->
+      </div>
+      <!-- CONTENT -->
     </div>
     <!-- CONTENT-WRAP -->
 
     <!-- SCRIPTS -->
     <script src="js/main.js"></script>
-    <script src="js/firebase.js"></script>
     <script src="js/vue.js"></script>
-
-</body>
-
+  </body>
 </html>
